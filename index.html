@@ -15,11 +15,13 @@
         <form>                
             Length (minimum 8): <input type="number" id="length" name="length" min="8">
             <br><br>Include:<br>
+            <!--Inputs for the javascript file to check-->
                     <input type="checkbox" id="uppercaseCheck" name="uppercaseCheck" value="Uppercase">Uppercase<br>
                     <input type="checkbox" id="lowercaseCheck" name="lowercaseCheck" value="Lowercase">Lowercase<br>
                     <input type="checkbox" id="numberCheck" name="numberCheck" value="Number">Number<br>
                     <input type="checkbox" id="symbolCheck" name="symbolCheck" value="Symbol">Symbol<br>
                     <br>
+                    <!--Once the button is pressed it uses the passResult method from the javascript file-->
                     <button type="button" onclick="passResult()">Submit</button>
         </form>
         <div id="passStyle">

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+    background-color:black;
+}
+form{
+    color:white;
+    text-align: center;
+}
+#title{
+    text-align:center;
+    font-family: 'Share Tech Mono', monospace;
+    color:white;
+    text-decoration-line:underline;
+}
+#passStyle{
+    text-align: center;
+}
+
